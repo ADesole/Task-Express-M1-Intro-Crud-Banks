@@ -95,3 +95,6 @@ exports.accountModify =(req, res) => {
     res.end()
     }
 }
+
+// The error to show in case it doesn't show in laptop
+// Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
